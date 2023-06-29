@@ -1,5 +1,9 @@
 /* Mis estilos */
 
+.navbar {
+    background-color: #04AA6D;
+}
+
 .container {
     margin-top: 100px;
 }
