@@ -1,0 +1,22 @@
+/* Mis estilos */
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: hsl(148, 100%, 21%);
+  }

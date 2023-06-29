@@ -1,10 +1,28 @@
-<h1>Pages#projects</h1>
-<p>Find me in app/views/pages/projects.html.erb</p>
+<h1>Mis Proyectos</h1>
 
-
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+<%# Proyecto 1 %>
+<div class="card">
+  <%= image_tag "cuppon.png", alt: 'src', class: 'card-img-top' %>
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Web Cuppon</h5>
+    <%= link_to button_tag("Ver Más", class: "button"), "https://jolicienta.github.io/cuppon/", target: "_blank" %>
+  </div>
+</div>
+
+<%# Proyecto 2 %>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Web Ricomida</h5>
+    <%= link_to button_tag("Ver Más", class: "button"), "https://jolicienta.github.io/Ricomida/", target: "_blank" %>
+  </div>
+  <%= image_tag "ricomida.png", alt: 'src', class: 'card-img-top' %>
+</div>
+
+<%# Proyecto 3 %>
+<div class="card">
+  <%= image_tag "viajes_chile.png", alt: 'src', class: 'card-img-top' %>
+  <div class="card-body">
+    <h5 class="card-title">Web Viajes de Chile</h5>
+    <%= link_to button_tag("Ver Más", class: "button"), "https://jolicienta.github.io/viajes_de_chile/", target: "_blank" %>
   </div>
 </div>

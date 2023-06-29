@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'pages/projects'
   get 'pages/contact'
 
-  root "pages#home"
+  root "pages#home", as: 'my_portfolio'
 end
